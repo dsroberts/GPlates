@@ -235,7 +235,7 @@ endif()
 # Now find the Boost library components.
 find_package(Boost ${_GPLATES_MIN_BOOST_VERSION} REQUIRED
 		# These components are required (including boost python)...
-		COMPONENTS program_options thread system ${GPLATES_BOOST_PYTHON_COMPONENT_NAME}
+		COMPONENTS program_options thread ${GPLATES_BOOST_PYTHON_COMPONENT_NAME}
 		#
 		# These components are optional...
 		OPTIONAL_COMPONENTS
